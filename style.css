@@ -46,10 +46,7 @@ padding: 30px 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.estudante-imagem{
-    width: 25%;
-}
-
 .estudantes-todos{
     display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
 }
