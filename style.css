@@ -72,11 +72,12 @@ padding: 30px 0;
 }
 
 .rodape{
-    background-color: #00ced1;
+    background-color: #fcb606bf;
     text-align: center;
 }
 
 .rodape-titulo{
     padding: 12px 0;
     font-family: 'Roboto Condensed', sans-serif;
+    color:#ffffff
 }
