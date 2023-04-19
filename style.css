@@ -5,7 +5,11 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 padding: 30px 0;
-margin: 0 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
 .titulo-legal{
@@ -46,6 +50,7 @@ margin: 0 16px;
 
 .estudante-titulo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 
 .estudante-div{
@@ -73,4 +78,5 @@ margin: 0 16px;
 
 .rodape-titulo{
     padding: 12px 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
