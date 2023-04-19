@@ -7,6 +7,9 @@ align-items: center;
 padding: 30px 0;
 }
 
+.titulo-legal{
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
 .imagem-cabecalho{
     width: 5%
