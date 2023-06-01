@@ -20,7 +20,7 @@ padding: 40px 0;
     width: 5%
 }
 
-.cabecalho-lista-item{
+.cabecalho-lista-item a {
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
