@@ -30,7 +30,7 @@ padding: 40px 0;
 
 .cabecalho-lista{
     text-decoration: none;
-    display: block;
+    display: inline-block;
 }
 
 .escola{
