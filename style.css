@@ -390,3 +390,18 @@ input[type=submit] {
         font-weight: 700;
         text-decoration: none;
     }
+
+    .teclado{
+        background-color: #000;
+        display: grid;
+        grid-template-columns: repeat(3,2fr);
+        padding: 10px;
+
+    }
+
+    tecla{
+        background-color: #000;
+        color: #ccc;
+        padding: 30px;
+        
+    }
