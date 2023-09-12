@@ -3,3 +3,11 @@ function TocaSomToim (){
 }
 
 const ListaDeSons = document.querySelectorAll('.tecla');
+
+let Contador = 0;
+
+while (Contador <9){
+    ListaDeSons[5].onclick = TocaSomToim;
+    Contador = Contador + 1;
+    console.log(Contador);
+}
