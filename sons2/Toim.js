@@ -1,7 +1,7 @@
 //função = tocar
-function TocaSomToim (){
+function TocaSomToim (idaudio){
     //tocando Toim
-    document.querySelector('#som_tecla_toim').play();
+    document.querySelector(idaudio).play();
 }
 
 //constante = ListaDeSons - Teclas
@@ -13,7 +13,7 @@ let Contador = 0;
 // condição ou enquanto
 while (Contador <9){
     ListaDeSons[Contador].onclick = function (){
-    tocar('#som_tecla_toim');
+    TocaSomToim('#som_tecla_toim');
     }
     const classe = ListaDeSons[Contador].classList[1];
     console.log(classe);
