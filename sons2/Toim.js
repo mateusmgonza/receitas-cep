@@ -13,7 +13,7 @@ let Contador = 0;
 while (Contador < ListaDeSons.length) {
     const tecla = ListaDeSons[Contador];
     const classe = tecla.classList[1];
-    const idSom = #sons_${classe} ;
+    const idSom = #sons2_${classe} ;
     tecla.onclick = function () {
         TocaSomToim(idSom);
     }
@@ -24,7 +24,7 @@ while (Contador < ListaDeSons.length) {
     // mudando o valor da variável - somei 1 
     }
     tecla.onkeyup = function() {
-        
+
     }
     
 
