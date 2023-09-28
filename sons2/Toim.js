@@ -13,8 +13,9 @@ let Contador = 0;
 while (Contador < ListaDeSons.length) {
     const tecla = ListaDeSons[Contador];
     const classe = tecla.classList[1];
+    const idSom = #som_${classe} ;
     tecla.onclick = function () {
-        tocar(idSom);
+        TocaSomToim(idSom);
     }
     Contador = Contador + 1;
     console.log(Contador);
