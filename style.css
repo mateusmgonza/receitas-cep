@@ -410,3 +410,10 @@ input[type=submit] {
         padding: 30px;
         
     }
+    .tecla.ativa, 
+    .tecla:active{
+        background-color: #9b0000;
+        color: #bdee0b;
+        box-shadow: 3px black;
+        
+    }
