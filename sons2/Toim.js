@@ -19,11 +19,11 @@ while (Contador < ListaDeSons.length) {
     }
     Contador = Contador + 1;
     tecla.onkeydown = function (evento){
-    tecla.classList.add('ativa');
-    console.log(Contador);
-    // mudando o valor da variável - somei 1 
+        tecla.classList.add('ativa');
+        console.log(evento.Contador === 'Space' || evento.Contador === 'Enter');
     }
-    tecla.onkeyup = function() {
+    tecla.onkeyup = function () {
+        tecla.classList.remove('ativa')
 
     }
     
