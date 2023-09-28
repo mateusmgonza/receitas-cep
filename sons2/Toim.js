@@ -9,8 +9,8 @@ const ListaDeSons = document.querySelectorAll('.tecla');
 
 // variavel = contador = valor fixado 0
 let Contador = 0;
-while (contador < lista.lentgh){
-    const tecla = ListaDeSons[Contador];
+while (Contador < lista.lentgh){
+    const tecla = lista[Contador];
     const classe = tecla.classList[1];
     tecla.onclick = function (){
         tocar(idSom);
