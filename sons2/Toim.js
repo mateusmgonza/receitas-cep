@@ -18,17 +18,17 @@ while (Contador < ListaDeSons.length) {
         TocaSomToim(idSom);
     }
     Contador = Contador + 1;
-    tecla.onkeydown = function (evento){
-        if (evento.Contador === 'Space' || evento.Contador === 'Enter'){
-        tecla.classList.add('ativa');
-        //console.log(evento.Contador === 'Space' || evento.Contador === 'Enter');
+    tecla.onkeydown = function (evento) {
+        if (evento.Contador === 'Space' || evento.Contador === 'Enter') {
+            tecla.classList.add('ativa');
+            //console.log(evento.Contador === 'Space' || evento.Contador === 'Enter');
         }
     }
     tecla.onkeyup = function () {
         tecla.classList.remove('ativa')
 
     }
-    
+
 
 
 }
