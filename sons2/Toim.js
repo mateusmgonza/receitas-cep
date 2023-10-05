@@ -8,9 +8,7 @@ function TocaSomToim(idaudio) {
 const ListaDeSons = document.querySelectorAll('.tecla');
 
 // variavel = contador = valor fixado 0
-let Contador = 0;
-
-for (Contador < ListaDeSons.length) {
+for (let Contador = 0; Contador < ListaDeSons.length; Contador++) {
     const tecla = ListaDeSons[Contador];
     const classe = tecla.classList[1];
 
@@ -19,7 +17,6 @@ for (Contador < ListaDeSons.length) {
     tecla.onclick = function () {
         TocaSomToim(idSom);
     }
-    Contador = Contador + 1;
     tecla.onkeydown = function (evento) {
         if (evento.Contador === 'Space' || evento.Contador === 'Enter') {
             tecla.classList.add('ativa');
