@@ -18,7 +18,7 @@ for (let Contador = 0; Contador < ListaDeSons.length; Contador++) {
         TocaSomToim(idSom);
     }
     tecla.onkeydown = function (evento) {
-        if (evento.Contador === 'Space' || evento.Contador === 'Enter') {
+        if (evento.code === 'Space' || evento.code === 'Enter') {
             tecla.classList.add('ativa');
             //console.log(evento.Contador === 'Space' || evento.Contador === 'Enter');
         }
