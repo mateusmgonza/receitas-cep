@@ -396,24 +396,4 @@ input[type=submit] {
         text-decoration: none;
     }
 
-    .teclado{
-        background-color: #000;
-        display: grid;
-        grid-template-columns: repeat(3,2fr);
-        padding: 10px;
-
-    }
-
-    .tecla{
-        background-color: #000;
-        color: #ccc;
-        padding: 30px;
-        
-    }
-    .tecla.ativa, 
-    .tecla:active{
-        background-color: #9b0000;
-        color: #bdee0b;
-        box-shadow: 3px black;
-        
-    }
+    
