@@ -396,4 +396,6 @@ input[type=submit] {
         text-decoration: none;
     }
 
-    
+    .tecla_calculadora { 
+        display: grid; 
+      }
