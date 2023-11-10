@@ -394,6 +394,5 @@ input[type=submit] {
         color: var(--branco);
         font-weight: 700;
         text-decoration: none;
-        box-shadow: yellowgreen;
     }
 
