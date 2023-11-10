@@ -6,7 +6,7 @@
 body {
     margin: 0;
     background-color: rgb(0, 0, 0);
-    background-image: radial-gradient(blue, yellow, red);
+    background-image: radial-gradient(orange, yellow, blue,);
 }
 
 .container {
