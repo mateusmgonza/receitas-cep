@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    background-image: radial-gradient(white, gray, blue);
+    background-image: radial-gradient(white, gray, black);
 }
 
 .container {
