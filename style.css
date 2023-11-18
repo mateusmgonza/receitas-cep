@@ -213,6 +213,7 @@ input[type=submit] {
     margin: 0 auto;
     text-align: center;
     border-radius: 15px;
+    font-family: 'Cabin', sans-serif;
 }
 
 .botão1{
@@ -220,6 +221,7 @@ input[type=submit] {
     border: 30px;
     box-shadow: 3px 3px 0 rgb(255, 255, 255);
     cursor: pointer;
+    font-family: 'Cabin', sans-serif;
 }
 
 .carrosel {
