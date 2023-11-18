@@ -161,6 +161,7 @@
     background-color: #bebebebf;
     padding: 20px;
     color: white;
+    font-family: 'Cabin', sans-serif;
 }
 
 .formulario p {
@@ -189,6 +190,7 @@ textarea {
     border: 1px solid #ffffff;
     outline: none;
     width: 270px;
+    font-family: 'Cabin', sans-serif;
 }
 
 .mensagem {
@@ -197,6 +199,7 @@ textarea {
     height: 110px;
     resize: none;
     width: 100%;
+    font-family: 'Cabin', sans-serif;
 }
 
 input[type=submit] {
@@ -214,7 +217,7 @@ input[type=submit] {
 
 .botão1{
     padding: 40px 30px;
-    border: radius 30px;
+    border: 30px;
     box-shadow: 3px 3px 0 rgb(255, 255, 255);
     cursor: pointer;
 }
@@ -223,52 +226,7 @@ input[type=submit] {
     text-align: center;
     background-color: rgb(255, 255, 255);
   }
-  
-  .slides-list {
-    /* remove os estilos da lista */
-    list-style-type: none;
-    margin: 10px 0;
-    padding: 0;
-    width: 400%;
-    position: relative;
-    left: 0%;
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
-    --selected-item: 0;
-    position: relative;
-    left: calc(var(--selected-item) * -100%);
-    transition: left 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
-    --total-items: 6;
-    width: calc(var(--total-items) * 100%);
-  }
-  
-  .redondo {
-    width: 50%;
-  }
-  
-  .slide-show {
-    overflow: hidden;
-  }
-  
-  .slide-controller:nth-child(1):checked~.slide-show .slides-list {
-    --selected-item: 0;
-  }
-  
-  .slide-controller:nth-child(2):checked~.slide-show .slides-list {
-    --selected-item: 1;
-  }
-  
-  .slide-controller:nth-child(3):checked~.slide-show .slides-list {
-    --selected-item: 2;
-  }
-  
-  .slide-controller:nth-child(4):checked~.slide-show .slides-list {
-    --selected-item: 3;
-  }.carrosel {
-  text-align: center;
-  background-color: rgb(255, 255, 255);
-}
+
 
 .slides-list {
   /* remove os estilos da lista */
@@ -335,7 +293,7 @@ input[type=submit] {
         position: initial;
         margin: .5em 0;
         text-align: center;
-        transition: .3s opacity;
+        transition: .3s;
         transform: translate3d(0, 0, 0);
         z-index: 10;
     }
@@ -361,6 +319,7 @@ input[type=submit] {
         border-radius: 10px;
         margin: 1em;
         padding: 1em;
+        
     }
 
     .descrição__titulo {
