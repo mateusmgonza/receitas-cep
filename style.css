@@ -192,7 +192,7 @@ textarea {
     height: 30px;
     line-height: 30px;
     border-radius: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     outline: none;
     width: 270px;
 }
@@ -207,7 +207,7 @@ textarea {
 
 input[type=submit] {
     display: block;
-    background-color: #ccc;
+    background-color: #ffffff;
     height: 35px;
     border: none;
     outline: 0;
@@ -221,13 +221,13 @@ input[type=submit] {
 .botão1{
     padding: 40px 30px;
     border: radius 30px;
-    box-shadow: 3px 3px 0 gray;
+    box-shadow: 3px 3px 0 rgb(255, 255, 255);
     cursor: pointer;
 }
 
 .carrosel {
     text-align: center;
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(255, 255, 255);
   }
   
   .slides-list {
@@ -273,7 +273,7 @@ input[type=submit] {
     --selected-item: 3;
   }.carrosel {
   text-align: center;
-  background-color: rgb(185, 185, 185);
+  background-color: rgb(255, 255, 255);
 }
 
 .slides-list {
